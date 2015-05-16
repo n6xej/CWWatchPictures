@@ -2,7 +2,7 @@
 Apple Watch program to show images from your CameraRoll on you AppleWatch
 Uses WatchKit
 
-![ScreenShot](https://github.com/n6xej/CWWatchPictures/blob/master/screencolor.png)
+![ScreenShot](https://github.com/n6xej/CWWatchPictures/blob/master/iOS Simulator Screen Shot - Apple Watch.png)
 
 #MIT License
 	The MIT License (MIT)
