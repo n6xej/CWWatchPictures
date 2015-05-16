@@ -13,18 +13,46 @@
 		CE1337231B07038000268245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1337211B07038000268245 /* Main.storyboard */; };
 		CE1337251B07038000268245 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1337241B07038000268245 /* Images.xcassets */; };
 		CE1337281B07038000268245 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1337261B07038000268245 /* LaunchScreen.xib */; };
-		CE1337341B07038000268245 /* CWWatchPicturesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1337331B07038000268245 /* CWWatchPicturesTests.m */; };
+		CE1337471B0703B600268245 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1337461B0703B600268245 /* InterfaceController.m */; };
+		CE1337491B0703B600268245 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1337481B0703B600268245 /* Images.xcassets */; };
+		CE13374D1B0703B600268245 /* CWWatchPictures WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = CE13374C1B0703B600268245 /* CWWatchPictures WatchKit App.app */; };
+		CE1337551B0703B600268245 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1337531B0703B600268245 /* Interface.storyboard */; };
+		CE1337571B0703B600268245 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1337561B0703B600268245 /* Images.xcassets */; };
+		CE13375A1B0703B600268245 /* CWWatchPictures WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE1337411B0703B600268245 /* CWWatchPictures WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE1337641B0704B100268245 /* ImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1337631B0704B100268245 /* ImageController.m */; };
+		CE1337681B0705F100268245 /* MHCameraRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1337671B0705F100268245 /* MHCameraRoll.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE13372E1B07038000268245 /* PBXContainerItemProxy */ = {
+		CE13374E1B0703B600268245 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CE13370C1B07038000268245 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE1337131B07038000268245;
-			remoteInfo = CWWatchPictures;
+			remoteGlobalIDString = CE13374B1B0703B600268245;
+			remoteInfo = "CWWatchPictures WatchKit App";
+		};
+		CE1337581B0703B600268245 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE13370C1B07038000268245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE1337401B0703B600268245;
+			remoteInfo = "CWWatchPictures WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE1337611B0703B600268245 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE13375A1B0703B600268245 /* CWWatchPictures WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CE1337141B07038000268245 /* CWWatchPictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CWWatchPictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,9 +65,19 @@
 		CE1337221B07038000268245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE1337241B07038000268245 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE1337271B07038000268245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CE13372D1B07038000268245 /* CWWatchPicturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWWatchPicturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1337321B07038000268245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE1337331B07038000268245 /* CWWatchPicturesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWWatchPicturesTests.m; sourceTree = "<group>"; };
+		CE1337411B0703B600268245 /* CWWatchPictures WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CWWatchPictures WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1337441B0703B600268245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1337451B0703B600268245 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		CE1337461B0703B600268245 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		CE1337481B0703B600268245 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE13374C1B0703B600268245 /* CWWatchPictures WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CWWatchPictures WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1337521B0703B600268245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE1337541B0703B600268245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CE1337561B0703B600268245 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE1337621B0704B100268245 /* ImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageController.h; sourceTree = "<group>"; };
+		CE1337631B0704B100268245 /* ImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageController.m; sourceTree = "<group>"; };
+		CE1337661B0705F100268245 /* MHCameraRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHCameraRoll.h; path = MHCameraRoll/MHCameraRoll.h; sourceTree = "<group>"; };
+		CE1337671B0705F100268245 /* MHCameraRoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHCameraRoll.m; path = MHCameraRoll/MHCameraRoll.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +88,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE13372A1B07038000268245 /* Frameworks */ = {
+		CE13373E1B0703B600268245 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -64,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				CE1337161B07038000268245 /* CWWatchPictures */,
-				CE1337301B07038000268245 /* CWWatchPicturesTests */,
+				CE1337421B0703B600268245 /* CWWatchPictures WatchKit Extension */,
+				CE1337501B0703B600268245 /* CWWatchPictures WatchKit App */,
 				CE1337151B07038000268245 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				CE1337141B07038000268245 /* CWWatchPictures.app */,
-				CE13372D1B07038000268245 /* CWWatchPicturesTests.xctest */,
+				CE1337411B0703B600268245 /* CWWatchPictures WatchKit Extension.appex */,
+				CE13374C1B0703B600268245 /* CWWatchPictures WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,21 +142,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CE1337301B07038000268245 /* CWWatchPicturesTests */ = {
+		CE1337421B0703B600268245 /* CWWatchPictures WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				CE1337331B07038000268245 /* CWWatchPicturesTests.m */,
-				CE1337311B07038000268245 /* Supporting Files */,
+				CE1337651B0705C800268245 /* CameraRoll */,
+				CE1337451B0703B600268245 /* InterfaceController.h */,
+				CE1337461B0703B600268245 /* InterfaceController.m */,
+				CE1337621B0704B100268245 /* ImageController.h */,
+				CE1337631B0704B100268245 /* ImageController.m */,
+				CE1337481B0703B600268245 /* Images.xcassets */,
+				CE1337431B0703B600268245 /* Supporting Files */,
 			);
-			path = CWWatchPicturesTests;
+			path = "CWWatchPictures WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		CE1337311B07038000268245 /* Supporting Files */ = {
+		CE1337431B0703B600268245 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE1337321B07038000268245 /* Info.plist */,
+				CE1337441B0703B600268245 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE1337501B0703B600268245 /* CWWatchPictures WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				CE1337531B0703B600268245 /* Interface.storyboard */,
+				CE1337561B0703B600268245 /* Images.xcassets */,
+				CE1337511B0703B600268245 /* Supporting Files */,
+			);
+			path = "CWWatchPictures WatchKit App";
+			sourceTree = "<group>";
+		};
+		CE1337511B0703B600268245 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE1337521B0703B600268245 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE1337651B0705C800268245 /* CameraRoll */ = {
+			isa = PBXGroup;
+			children = (
+				CE1337661B0705F100268245 /* MHCameraRoll.h */,
+				CE1337671B0705F100268245 /* MHCameraRoll.m */,
+			);
+			name = CameraRoll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,33 +201,50 @@
 				CE1337101B07038000268245 /* Sources */,
 				CE1337111B07038000268245 /* Frameworks */,
 				CE1337121B07038000268245 /* Resources */,
+				CE1337611B0703B600268245 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE1337591B0703B600268245 /* PBXTargetDependency */,
 			);
 			name = CWWatchPictures;
 			productName = CWWatchPictures;
 			productReference = CE1337141B07038000268245 /* CWWatchPictures.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE13372C1B07038000268245 /* CWWatchPicturesTests */ = {
+		CE1337401B0703B600268245 /* CWWatchPictures WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE13373A1B07038000268245 /* Build configuration list for PBXNativeTarget "CWWatchPicturesTests" */;
+			buildConfigurationList = CE13375E1B0703B600268245 /* Build configuration list for PBXNativeTarget "CWWatchPictures WatchKit Extension" */;
 			buildPhases = (
-				CE1337291B07038000268245 /* Sources */,
-				CE13372A1B07038000268245 /* Frameworks */,
-				CE13372B1B07038000268245 /* Resources */,
+				CE13373D1B0703B600268245 /* Sources */,
+				CE13373E1B0703B600268245 /* Frameworks */,
+				CE13373F1B0703B600268245 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE13372F1B07038000268245 /* PBXTargetDependency */,
+				CE13374F1B0703B600268245 /* PBXTargetDependency */,
 			);
-			name = CWWatchPicturesTests;
-			productName = CWWatchPicturesTests;
-			productReference = CE13372D1B07038000268245 /* CWWatchPicturesTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "CWWatchPictures WatchKit Extension";
+			productName = "CWWatchPictures WatchKit Extension";
+			productReference = CE1337411B0703B600268245 /* CWWatchPictures WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		CE13374B1B0703B600268245 /* CWWatchPictures WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE13375B1B0703B600268245 /* Build configuration list for PBXNativeTarget "CWWatchPictures WatchKit App" */;
+			buildPhases = (
+				CE13374A1B0703B600268245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CWWatchPictures WatchKit App";
+			productName = "CWWatchPictures WatchKit App";
+			productReference = CE13374C1B0703B600268245 /* CWWatchPictures WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
 
@@ -169,9 +258,11 @@
 					CE1337131B07038000268245 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
-					CE13372C1B07038000268245 = {
+					CE1337401B0703B600268245 = {
 						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = CE1337131B07038000268245;
+					};
+					CE13374B1B0703B600268245 = {
+						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
@@ -189,7 +280,8 @@
 			projectRoot = "";
 			targets = (
 				CE1337131B07038000268245 /* CWWatchPictures */,
-				CE13372C1B07038000268245 /* CWWatchPicturesTests */,
+				CE1337401B0703B600268245 /* CWWatchPictures WatchKit Extension */,
+				CE13374B1B0703B600268245 /* CWWatchPictures WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,10 +297,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE13372B1B07038000268245 /* Resources */ = {
+		CE13373F1B0703B600268245 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE13374D1B0703B600268245 /* CWWatchPictures WatchKit App.app in Resources */,
+				CE1337491B0703B600268245 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE13374A1B0703B600268245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1337551B0703B600268245 /* Interface.storyboard in Resources */,
+				CE1337571B0703B600268245 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,21 +328,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE1337291B07038000268245 /* Sources */ = {
+		CE13373D1B0703B600268245 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1337341B07038000268245 /* CWWatchPicturesTests.m in Sources */,
+				CE1337681B0705F100268245 /* MHCameraRoll.m in Sources */,
+				CE1337471B0703B600268245 /* InterfaceController.m in Sources */,
+				CE1337641B0704B100268245 /* ImageController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE13372F1B07038000268245 /* PBXTargetDependency */ = {
+		CE13374F1B0703B600268245 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE1337131B07038000268245 /* CWWatchPictures */;
-			targetProxy = CE13372E1B07038000268245 /* PBXContainerItemProxy */;
+			target = CE13374B1B0703B600268245 /* CWWatchPictures WatchKit App */;
+			targetProxy = CE13374E1B0703B600268245 /* PBXContainerItemProxy */;
+		};
+		CE1337591B0703B600268245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE1337401B0703B600268245 /* CWWatchPictures WatchKit Extension */;
+			targetProxy = CE1337581B0703B600268245 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +368,14 @@
 				CE1337271B07038000268245 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CE1337531B0703B600268245 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE1337541B0703B600268245 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,37 +481,59 @@
 			};
 			name = Release;
 		};
-		CE13373B1B07038000268245 /* Debug */ = {
+		CE13375C1B0703B600268245 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CWWatchPicturesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IBSC_MODULE = CWWatchPictures_WatchKit_Extension;
+				INFOPLIST_FILE = "CWWatchPictures WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CWWatchPictures.app/CWWatchPictures";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
 			name = Debug;
 		};
-		CE13373C1B07038000268245 /* Release */ = {
+		CE13375D1B0703B600268245 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CWWatchPictures_WatchKit_Extension;
+				INFOPLIST_FILE = "CWWatchPictures WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		CE13375F1B0703B600268245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CWWatchPicturesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CWWatchPictures.app/CWWatchPictures";
+				INFOPLIST_FILE = "CWWatchPictures WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE1337601B0703B600268245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CWWatchPictures WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -417,11 +557,19 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		CE13373A1B07038000268245 /* Build configuration list for PBXNativeTarget "CWWatchPicturesTests" */ = {
+		CE13375B1B0703B600268245 /* Build configuration list for PBXNativeTarget "CWWatchPictures WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE13373B1B07038000268245 /* Debug */,
-				CE13373C1B07038000268245 /* Release */,
+				CE13375C1B0703B600268245 /* Debug */,
+				CE13375D1B0703B600268245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE13375E1B0703B600268245 /* Build configuration list for PBXNativeTarget "CWWatchPictures WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE13375F1B0703B600268245 /* Debug */,
+				CE1337601B0703B600268245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
