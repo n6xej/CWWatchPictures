@@ -66,9 +66,6 @@
     [super didDeactivate];
 }
 
-//- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex {
-//}
-
 - (void)loadTableRows {
 	[self.interfaceTable setNumberOfRows:imageCount withRowType:@"default"];
 	
@@ -80,6 +77,7 @@
 		}];
 	}
 }
+
 @end
 
 
