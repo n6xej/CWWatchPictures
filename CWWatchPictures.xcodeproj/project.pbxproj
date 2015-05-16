@@ -21,6 +21,7 @@
 		CE13375A1B0703B600268245 /* CWWatchPictures WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE1337411B0703B600268245 /* CWWatchPictures WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE1337641B0704B100268245 /* ImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1337631B0704B100268245 /* ImageController.m */; };
 		CE1337681B0705F100268245 /* MHCameraRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1337671B0705F100268245 /* MHCameraRoll.m */; };
+		CE62807F1B0717C4004CC2FC /* iOS Simulator Screen Shot - Apple Watch.png in Resources */ = {isa = PBXBuildFile; fileRef = CE62807E1B0717C4004CC2FC /* iOS Simulator Screen Shot - Apple Watch.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		CE1337631B0704B100268245 /* ImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageController.m; sourceTree = "<group>"; };
 		CE1337661B0705F100268245 /* MHCameraRoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHCameraRoll.h; path = MHCameraRoll/MHCameraRoll.h; sourceTree = "<group>"; };
 		CE1337671B0705F100268245 /* MHCameraRoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHCameraRoll.m; path = MHCameraRoll/MHCameraRoll.m; sourceTree = "<group>"; };
+		CE62807E1B0717C4004CC2FC /* iOS Simulator Screen Shot - Apple Watch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen Shot - Apple Watch.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		CE1337161B07038000268245 /* CWWatchPictures */ = {
 			isa = PBXGroup;
 			children = (
+				CE62807E1B0717C4004CC2FC /* iOS Simulator Screen Shot - Apple Watch.png */,
 				CE13371B1B07038000268245 /* AppDelegate.h */,
 				CE13371C1B07038000268245 /* AppDelegate.m */,
 				CE13371E1B07038000268245 /* ViewController.h */,
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1337231B07038000268245 /* Main.storyboard in Resources */,
+				CE62807F1B0717C4004CC2FC /* iOS Simulator Screen Shot - Apple Watch.png in Resources */,
 				CE1337281B07038000268245 /* LaunchScreen.xib in Resources */,
 				CE1337251B07038000268245 /* Images.xcassets in Resources */,
 			);
@@ -556,6 +560,7 @@
 				CE1337391B07038000268245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE13375B1B0703B600268245 /* Build configuration list for PBXNativeTarget "CWWatchPictures WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +569,7 @@
 				CE13375D1B0703B600268245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE13375E1B0703B600268245 /* Build configuration list for PBXNativeTarget "CWWatchPictures WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +578,7 @@
 				CE1337601B0703B600268245 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
