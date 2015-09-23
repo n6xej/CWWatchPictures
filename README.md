@@ -1,6 +1,6 @@
 # CWWatchPictures
 Apple Watch program to show images from your iPhones CameraRoll on you AppleWatch
-![Version](https://img.shields.io/badge/version-1.8-green.svg)
+![Version](https://img.shields.io/badge/version-1.8-ff69b4.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 This is my first WatchKit program and I could not find a good reference on how to show images from my phone (other than the app bundle) onto my Apple Watch. Since I didn't see anyone else doing anything similar, I thought
